@@ -1,4 +1,8 @@
 {
+    "author": {
+        "name": "Vladimit Galunshchikov",
+        "url": "https://github.com/soyayaos"
+    },
     "ava": {
         "extensions": {
             "ts": "module"
@@ -7,7 +11,10 @@
             "--loader=tsx"
         ]
     },
-    "description": "",
+    "bugs": {
+        "url": "https://github.com/qbq-systems/decorators/issues"
+    },
+    "description": "Various decorators",
     "devDependencies": {
         "@styled/typescript-styled-plugin": "^1.0.0",
         "@types/node": "^18.0.0",
@@ -21,8 +28,15 @@
     },
     "homepage": "",
     "license": "MIT",
+    "keywords": [
+        "decorators"
+    ],
     "main": "target/index.js",
     "name": "@qbq.systems/decorators",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qbq-systems/decorators"
+    },
     "scripts": {
         "compile": "tsc",
         "generate:declarations": "tsc --declaration",
